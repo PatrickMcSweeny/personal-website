@@ -1,5 +1,5 @@
 body{
-  background: #FFF8F0;
+  background: #1F3B4D;
   font:1em 'Droid Sans',sans-serif;  
   color: #000;
 }
@@ -10,10 +10,17 @@ main {
   margin:0 auto;
   line-height:1.45em;
   font:1em 'Droid Sans',sans-serif;
-  min-height:90vh;
+  min-height:80dvh;
   background:#fff;
-  border-top: 1px solid #C08552;
-  border-radius: 0 0 .5em .5em;
+}
+
+#home{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+
+#home img{
+  max-width: 200px;
 }
 
 
@@ -21,12 +28,14 @@ header {
   margin:0 auto;
   max-width:56em;
   background: #fff;
-  padding-top: 1em;
-  border-radius: .5em .5em 0 0;
+  padding-top: .5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 header h1{
-  margin: .5em 1em;
+  margin: 0 1em;
+  font-size: 1.75em;
 }
 
 h1, h2{
@@ -38,10 +47,12 @@ p {
 }
 
 footer {
-  margin: 1em auto;
+  padding: 1em 3em;
+  margin: 0 auto;
   max-width:50em;
   color: #4B2E2B;
   text-align: center;
+  background: #fff;
 }
 
 a {
@@ -49,33 +60,55 @@ a {
   text-decoration: none;
 }
 
+nav{
+  font-size: .9em;
+  text-transform: lowercase;
+  text-align: right;
+}
+
 nav ul{
   font-size: 1.3em;
   margin: 0;
-  text-transform: uppercase;
-}
-
-nav a{
-  display: inline-block;
-  padding: .4em .5em;
-  border-radius: .25em;
+  padding-right: 1em;
 }
 
 nav li{
   display: inline-block;
   margin: none;
-}
-
-nav a:hover{
-  background: #8C5A3C;
-  color: #fff;
+  margin: 0 .25em;
 }
 
 main ul{
   list-style:square;
-  padding-left:1.2em
+  padding-left:1.2em;
 }
 
 main a:hover{
   text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  #home{
+    display: block;
+  }
+
+  #home .left{
+    text-align: center;
+  }
+
+  main{
+    padding: 1em;
+  }
+
+  header h1{
+    text-align: center;
+  }
+
+  header{
+    display: block;
+  }
+
+  nav{
+    text-align: center;
+  }
 }
