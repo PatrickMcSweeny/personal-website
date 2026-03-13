@@ -1,0 +1,9 @@
+baseURL = 'https://patrickmcsweeny.com/'
+languageCode = 'en-us'
+title = 'Patrick McSweeny'
+theme = 'patrickmcsweeny'
+
+[deployment]
+  [[deployment.targets]]
+    name = 'production'
+    url = 's3://patrickmcsweeny.com?region=us-east-1'

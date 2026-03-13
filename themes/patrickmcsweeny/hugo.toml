@@ -1,0 +1,26 @@
+baseURL = 'https://patrickmcsweeny.com/'
+languageCode = 'en-US'
+title = 'Patrick McSweeny'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'About'
+    title = 'About'
+    pageRef = '/about'
+    weight = 20
+
+
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
