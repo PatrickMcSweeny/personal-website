@@ -1,6 +1,7 @@
 +++
 date = '2026-03-10T10:28:50-04:00'
 title = 'About'
+layout = 'notitle'
 +++
 
 ## About Me
