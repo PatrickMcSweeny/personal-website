@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <a href="/blog">&#8592; back to blog</a>
+  <h2>{{ .Title }}</h2>
+  <time datetime='{{ time.Format ":date_short" .Date}}'>{{ time.Format ":date_medium" .Date }}</time>
+  {{ .Content }}
+{{ end }}
