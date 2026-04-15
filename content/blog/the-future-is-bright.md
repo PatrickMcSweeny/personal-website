@@ -28,11 +28,11 @@ In my experience, most people want software that is simple and straightforward t
 
 ### Learning by doing
 
-The only way for a developer to improve and learn new skills is to practice. For example, I recently created my first Ruby Gem, or code library. In the process, I gained a fuller understanding of how gems work as well as the internals of the Ruby on Rails framework. If I had relied on an LLM to generate the code, I would likely have not learned as much. LLMs are not capable of learning by doing.
+The only way for a developer to improve and learn new skills is to practice. For example, I recently created my first [Ruby Gem](https://github.com/PatrickMcSweeny/rails-integration-test-generator), or code library. In the process, I gained a fuller understanding of how gems work as well as the internals of the Ruby on Rails framework. If I had relied on an LLM to generate the code, I would likely have not learned as much. LLMs are not capable of learning by doing.
 
 ### Natural language is messy
 
-Computer scientist Edsger W. Dijkstra wrote an essay in the late 1970s titled “On the foolishness of ‘natural language programming’”. In the essay, Dijkstra argued that a standardized means of communicating with computers would always be superior to attempts to accomplish something resembling computer programming with natural language. This proves that attempts to allow humans to program computers using plain language are not new. People have apparently been trying to create this functionality for decades.
+Computer scientist Edsger W. Dijkstra wrote [an essay](https://www.cs.utexas.edu/%7EEWD/transcriptions/EWD06xx/EWD667.html) in the late 1970s titled “On the foolishness of ‘natural language programming’”. In the essay, Dijkstra argued that a standardized means of communicating with computers would always be superior to attempts to accomplish something resembling computer programming with natural language. This proves that attempts to allow humans to program computers using plain language are not new. People have apparently been trying to create this functionality for decades.
 
 Natural language will never truly be standardized, and for this reason, computers will never truly be able to understand it. Modern LLM technology is far from perfect when it comes to understanding natural language and these imperfections will never be fully resolved. I worry that people who try to tailor their writing style to communicate with LLMs will damage their ability to communicate with other humans in the process.
 
