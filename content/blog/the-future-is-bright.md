@@ -2,7 +2,7 @@
 date = '2026-04-14T12:46:49-04:00'
 draft = false
 title = 'The Future Is Bright for Human Software Engineers'
-description = 'A blog post in which I lay out my arguments for why software created by humans is the future'
+description = 'My reasons for being optimistic about the future of humans creating software despite the recent developments in LLM technology'
 layout = 'post'
 +++
 
