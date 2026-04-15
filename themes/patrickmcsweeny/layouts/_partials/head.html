@@ -1,11 +1,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:site_name" content="Patrick McSweeny">
+<meta property="og:type" content="website" />
 {{ if .IsHome }}
 <meta name="description" content="Personal website for Patrick McSweeny, a software engineer located in Ann Arbor, Michigan.">
-{{ end }}
+<meta property="og:description" content="Personal website for Patrick McSweeny, a software engineer located in Ann Arbor, Michigan.">
+{{ else }}
 {{ if .Description }}
-  <meta name="description" content="{{.Description}}">
+<meta name="description" content="{{.Description}}">
+<meta property="og:description" content="{{.Description}}">
 {{ end }}
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ end }}
+
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
