@@ -5,14 +5,13 @@
 <meta property="og:site_name" content="Patrick McSweeny">
 <meta property="og:type" content="website" />
 {{ if .IsHome }}
-<meta name="description" content="Personal website for Patrick McSweeny, a software engineer located in Ann Arbor, Michigan.">
 <meta property="og:description" content="Personal website for Patrick McSweeny, a software engineer located in Ann Arbor, Michigan.">
+<meta name="description" content="Personal website for Patrick McSweeny, a software engineer located in Ann Arbor, Michigan.">
 {{ else }}
 {{ if .Description }}
-<meta name="description" content="{{.Description}}">
 <meta property="og:description" content="{{.Description}}">
 {{ end }}
 {{ end }}
 
+
 {{ partialCached "head/css.html" . }}
-{{ partialCached "head/js.html" . }}

@@ -1,7 +1,6 @@
 +++
 date = '2026-03-10T10:28:50-04:00'
 title = 'About'
-description = "Details about Patrick McSweeny's strengths as a developer"
 layout = 'notitle'
 +++
 
